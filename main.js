@@ -3,7 +3,7 @@ const firefox = require('selenium-webdriver/firefox');
 
 const TABS_NUMBER = 20
 
-(async function start() {
+const start = async () => {
  var options = new firefox.Options()
  let profile = '/Users/pedro.piloto/Library/Application Support/Firefox/Profiles/q7i59rp8.default-release';
  options.setProfile(profile)
@@ -44,4 +44,6 @@ const TABS_NUMBER = 20
  } finally {
   //await driver.quit();
  }
-})();
+}
+
+start()
