@@ -1,12 +1,11 @@
 const WorkerNodes = require('worker-nodes');
 const { resolve } = require('path');
 
-const LAUNCHPAD_URL = 'https://magiceden.io/launchpad'
+const LAUNCHPAD_URL = 'https://magiceden.io/launchpad/br1'
 const PROFILES = [
- '/Users/pedro.piloto/Library/Application Support/Firefox/Profiles/q7i59rp8.default-release',
- '/Users/pedro.piloto/Library/Application Support/Firefox/Profiles/q7i59rp8.default-release',
+ '/Users/pedro.piloto/Library/Application Support/Firefox/Profiles/xinf79ae.bot3',
 ]
-const TABS_NUMBER = 10
+const TABS_NUMBER = 12
 
 
 const path = resolve(__dirname, './work.js')
