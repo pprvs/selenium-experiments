@@ -1,11 +1,11 @@
 const WorkerNodes = require('worker-nodes');
 const { resolve } = require('path');
 
-const LAUNCHPAD_URL = 'https://magiceden.io/launchpad/br1'
+const LAUNCHPAD_URL = 'https://www.magiceden.io/launchpad/message_party'
 const PROFILES = [
- '/Users/pedro.piloto/Library/Application Support/Firefox/Profiles/xinf79ae.bot3',
+    '/Users/prvs/Library/Application Support/Google/Chrome/Default'
 ]
-const TABS_NUMBER = 12
+const TABS_NUMBER = 20
 
 
 const path = resolve(__dirname, './work.js')
